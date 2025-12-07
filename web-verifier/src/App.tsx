@@ -12,9 +12,16 @@ function App() {
                             <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary animate-pulse" />
                             <h1 className="text-xl font-bold tracking-tight">AM i REAL</h1>
                         </div>
-                        <nav className="text-sm font-medium text-white/50 space-x-4">
+                        <nav className="text-sm font-medium text-white/50 space-x-4 flex items-center">
                             <a href="/" className="hover:text-white transition-colors">Verify</a>
-                            <a href="#" className="hover:text-white transition-colors">Download App</a>
+                            <a
+                                href="https://github.com/Utkarshm1/AMIREAL/archive/refs/heads/main.zip"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all"
+                            >
+                                Download App
+                            </a>
                         </nav>
                     </div>
                 </header>
